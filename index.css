@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#NBLogo{
+    display: flex;
+    align-items: center;
+}
+#NBLogo{
+    color: #2B0051;
+}
+#NBLogo span{
+    color: blue;
+}
+
+
+#Navbar{
+  background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+#Navbar ul{
+    display: flex;
+    gap: 10%;
+    list-style-type: none;
+    margin-right: 12%;
+}
+    
+#Navbar a{
+    color:#2B0051;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#Navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.377);
+    transition: 1.5s; padding: 5px;
+}
+
+#PartyText{
+    /* background-color:white; */
+    /* border-radius: 0 30px 30px 0; */
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+    position: relative;
+    /* padding-top: 100px; */
+    /* margin-top: 10%; */
+    color: #FFF;
+}
+
+#PartyText h1{
+font-size: 60px;
+text-transform: uppercase;
+}
+
+#PartyText #s{
+    color:purple;
+    font-family: "Cherry Swash";
+    font-style:serif;
+}
+#PartyText #y{
+    color:blue;
+    font-family: "Cherry Swash";
+    font-style:serif;
+}
+#PartyText #p{
+    color:orange;
+    font-family: "Cherry Swash";
+    font-style:serif;
+}
+#PartyText #pp{
+    color:red;
+    font-family: "Cherry Swash";
+    font-style:serif;
+}
+
+
+#AllStarParty{
+    background-blend-mode: overlay;
+    background-color: rgba(128, 0, 128, 0.692);
+    background-image: url(./Image/GIP_364.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+}
+
+#StuffForFun{
+    margin-top: 20px;
+    display: flex;
+    font-size: 30px;
+}
+
+#ExpacterMartoonio{
+    text-align: center;
+    margin-top: 110px;
+    background-image: url(./Image/MoonBit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+#GA{
+    color:rgb(0, 179, 255);
+}
+
+#NG{
+    color:rgb(255, 0, 0);
+}
+
+#SpecialGeusts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-between;
+    justify-content: space-around;*/
+} 
+
+#SpecialGeusts img{
+   width: 250px;
+   height: 250px;
+   border-radius: 100%;
+}
+
+#Gap{
+    text-align: center;
+    background-image: url(./Image/C.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    filter: brightness(0.7);
+}
+
+#Gap h1{
+    margin-bottom: 10%;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#GamerS{
+    margin-top: 90px;
+}
+
+#Cocnclaat{
+    margin-top: 10%;
+    padding: 5%;
+    text-align: center;
+   background-image: linear-gradient(to right, purple,blue);
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#Cocnclaat button {
+    background-color: rgb(241, 239, 237);
+    color: #000000;
+    border-radius: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: #00000000;
+    margin-top: 10px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+#Cocnclaat button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#Cocnclaat button:hover{
+    background-color: white;
+    transition: 1.5s;
+    color: #ffffff;
+    border-radius: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: #00000000;
+    margin-top: 10px;
+}
+
+#Cocnclaat p{
+    margin-top: 10px;
+}
+
+#Gallvak span{
+    margin-left: 7%;
+}
+
+#Gallvak h2{
+    color: #2B0051;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+   
+}
+#Gallvak img{
+    border-radius: 10px ;
+}
+
+#Gallvak{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+#Springlockable-Mates{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   text-align: center;
+   justify-content: space-evenly;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   background-color:#2B0051 ;
+   color: white;
+   justify-items: center;
+}
+
+#Springlockable-Mates p{
+    width: 75%;
+ }
+
+ #Springlockable-Mates img{
+    border-radius: 100%;
+ 
+ }
+
+#Freind{
+    text-align: center;
+    justify-items: center;
+    background-color: #FFF;
+    color: #000000;
+    width: 75%;
+    margin-top: 5%;
+    
+}
+
+#Bid{
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 4%;
+    font-size: 60px;
+    text-transform: uppercase;
+ background-image: linear-gradient(blue,#2B0051);
+ color: white;
+}
+
+#Now_Thats_A_Lot_Of_Damage{
+    text-align: center;
+    padding-top: 20px; 
+    margin-top: 100px;
+    background-color: #2b0051;
+    height: 100vh;
+
+}
+
+#number{
+    font-size: 600%;
+    font-weight: bolder;
+    color:#ffc800;
+}
+
+#what{
+    font-size: 200%;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+textarea{
+    width: 60%;
+    height: 25px;
+    border-radius: 10%;
+}
+
+#Fazbear-Finality{
+    text-align: center;
+    width: 50%;
+    height: 60vh;
+    padding: 5%;
+    background-color: #2b0051;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 280px;
+    /* top: 100%;
+   z-index: 1000; */
+}
+
+/* #Fazbear-Finality img{
+    position: relative;
+    z-index: 10000;
+
+} */
+
+#Fazbear-Finality button{
+    padding: 1% 3% 1% 3%;
+    border-radius: 25%;
+    color: #000000;
+    background-color: #fff3c6;
+    border: none;
+}
+
+#Fenderbender{
+    margin-top: 50px;
+}
+
+#Fazbear-Finality button:hover{
+    transition: 1.5s;
+    padding: 1% 3% 1% 3%;
+    border-radius: 25%;
+    color: #fff;
+    background-color: #321a00;
+    border: none;
+}
+
+#Fazbear-Finality a{
+    text-decoration: none;
+}
+
+footer{
+    background-color:#2B0051;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    height: 15vh;
+    margin-top: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}

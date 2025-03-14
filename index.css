@@ -86,12 +86,16 @@ text-transform: uppercase;
 
 
 #AllStarParty{
-    background-blend-mode: overlay;
-    background-color: rgba(128, 0, 128, 0.692);
-    background-image: url(./Image/GIP_364.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200vh;
+    position: relative;
+    background: linear-gradient(rgba(43, 0, 81, 0.7), rgba(43, 0, 81, 0.7)), 
+                url(./Image/GIP_364.jpg) no-repeat center center/contain;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
 
 #StuffForFun{
@@ -132,11 +136,10 @@ text-transform: uppercase;
 
 #Gap{
     text-align: center;
-    background-image: url(./Image/C.jpg);
     background-size: 120%;
-    background-repeat: no-repeat;
+   background-color: #2B0051;
     color: #FFF;
-    filter: brightness(0.7);
+ 
 }
 
 #Gap h1{
@@ -337,4 +340,74 @@ footer{
     margin-top: 30px;
     font-weight: 800;
     padding-top: 50px;
+}
+@media screen and (max-width: 1024px) {
+    #Navbar ul {
+        gap: 5%;
+        margin-right: 5%;
+    }
+
+    #PartyText h1 {
+        font-size: 50px;
+    }
+    #AllStarParty {
+        min-height: 90vh;
+    }
+
+    #AllStarParty h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Navbar Stack */
+    #Navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #Navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    #AllStarParty {
+        min-height: 80vh;
+        padding: 20px;
+    }
+
+    #AllStarParty h1 {
+        font-size: 6vw;
+    }
+
+    /* Adjust hero text */
+    #PartyText h1 {
+        font-size: 40px;
+    }
+
+    /* Grid to Single Column */
+    #SpecialGeusts,
+    #Springlockable-Mates {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust text sizes for mobile */
+    #PartyText h1 {
+        font-size: 30px;
+    }
+
+    /* Reduce padding in buttons */
+    #Cocnclaat button {
+        padding: 10px;
+    }
+    #AllStarParty {
+        min-height: 70vh;
+    }
+
+    #AllStarParty h1 {
+        font-size: 7vw;
+    }
 }

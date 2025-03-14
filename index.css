@@ -294,10 +294,7 @@ textarea{
     color: #fff;
     border-radius: 10px;
     border: 2px solid white;
-    margin-top: 10px;
-    margin-left: 280px;
-    /* top: 100%;
-   z-index: 1000; */
+    margin: 10px auto; /* Centers it horizontally */
 }
 
 /* #Fazbear-Finality img{
@@ -347,6 +344,12 @@ footer{
         margin-right: 5%;
     }
 
+    #Fazbear-Finality {
+        width: 60%;
+        height: 50vh;
+        padding: 4%;
+    }
+
     #PartyText h1 {
         font-size: 50px;
     }
@@ -381,6 +384,12 @@ footer{
         font-size: 6vw;
     }
 
+    #Fazbear-Finality {
+        width: 70%;
+        height: 45vh;
+        padding: 3%;
+    }
+
     /* Adjust hero text */
     #PartyText h1 {
         font-size: 40px;
@@ -397,6 +406,12 @@ footer{
     /* Adjust text sizes for mobile */
     #PartyText h1 {
         font-size: 30px;
+    }
+
+    #Fazbear-Finality {
+        width: 90%;
+        height: auto; /* Adjusts height dynamically */
+        padding: 5%;
     }
 
     /* Reduce padding in buttons */
